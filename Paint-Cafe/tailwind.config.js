@@ -3,7 +3,7 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
   plugins: [],
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
       gridTemplateRows: {
